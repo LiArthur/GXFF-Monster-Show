@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                sh 'cd web'
+                cd web
                 echo 'building web image'
                 sh 'docker build -t caozz0828/monster:web .'
                 echo 'echo successfully build web image'
