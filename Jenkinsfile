@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                git clone https://github.com/LiArthur/GXFF-Monster-Show.git
+                git help
             }
         }
         stage('Test') {
